@@ -5,6 +5,9 @@
     background-color: bisque;
 }
 
+
+    
+
 .box {
     width: 100vw;
     height: 100vh;
@@ -20,3 +23,42 @@
     border-radius: 10px;
     padding: 20px;
 }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(143, 143, 143);
+}
+
+.bg {
+    background-color: rgb(143, 143, 143);
+}
+
+.icon {
+    background-color: rgb(143, 143, 143);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.content{
+   justify-content: center;
+   text-align: center;
+   margin-top: 80px;
+   background-color: rgb(143, 143, 143);
+}
+
+.paragraph{
+    background-color: rgb(143, 143, 143);
+    margin-top: 20px;
+}
+
+.img{
+    width: 60px;
+    height: 60px;
+}
+
+.cards{
+    display: flex;
+}
+

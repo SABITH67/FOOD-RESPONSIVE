@@ -6,33 +6,81 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <div class="box">
     <div class="section">
-      <div style="display: flex; background-color:  rgb(143, 143, 143);">
+      <!-- navbar -->
+      <div style="display: flex; background-color:  rgb(143, 143, 143); justify-content: space-between;">
         <div style="display: flex; background-color:  rgb(143, 143, 143);">
-          <img style="width: 50px; height: 50px; border-radius: 50px;" src="/img/download.png" alt="">
-          <div style="align-items: center; background-color:  rgb(143, 143, 143);">
-            <ul style="margin-left: 10px; padding: 0; list-style: none;">
-              <li style="background-color:  rgb(143, 143, 143);">location</li>
-            </ul>
-            <h4 style="margin-left: 14px; background-color:  rgb(143, 143, 143);">INDIA</h4>
+          <div style="display: flex; background-color:  rgb(143, 143, 143);">
+            <img style="width: 50px; height: 50px;border-radius: 50px;background-color:rgb(143, 143, 143) ; "
+              src="/img/download.png" alt="">
+            <div style="align-items: center; background-color:  rgb(143, 143, 143);margin-top: 8px;">
+              <ul style="margin-left: 10px; padding: 0; list-style: none;">
+                <li class="bg">location :</li>
+              </ul>
+              <h4 class="bg" style="margin-left: 14px;">INDIA</h4>
+            </div>
+          </div>
+
+          <div style="display: flex; background-color:  rgb(143, 143, 143); margin-left: 15px;">
+            <img style="width: 50px; height: 50px; border-radius: 50px; background-color: rgb(143, 143, 143);"
+              src="/img/user.png" alt="">
+            <div style="align-items: center; background-color:  rgb(143, 143, 143);margin-top: 8px;">
+              <ul style="margin-left: 10px; padding: 0; list-style: none;">
+                <li class="bg"> loged in : </li>
+              </ul>
+              <h4 class="bg" style="margin-left: 14px; "> SABITH </h4>
+            </div>
           </div>
         </div>
 
-        <div style="display: flex; background-color:  rgb(143, 143, 143);">
-          <img style="width: 50px; height: 50px; border-radius: 50px;" src="/img/download.png" alt="">
-          <div style="align-items: center; background-color:  rgb(143, 143, 143);">
-            <ul style="margin-left: 10px; padding: 0; list-style: none;">
-              <li style="background-color:  rgb(143, 143, 143);">location</li>
-            </ul>
-            <h4 style="margin-left: 14px; background-color:  rgb(143, 143, 143);">INDIA</h4>
-          </div>
+
+        <div class="center">
+          <li class="bg" style="list-style: none;">menu</li>
+          <h2 class="icon" style="background-color: rgb(143, 143, 143);">bell</h2>
+          <li class="bg" style="list-style: none ;">contact</li>
         </div>
+
+        <button class="bg" style="border-style: none;"> <i class="fa fa-shopping-cart"
+            style="font-size:24px ; background-color: rgb(143, 143, 143);  "> My Cart</i> </button>
+
       </div>
 
+      <!-- content -->
+
+      <div class="content">
+        <h1 class="bg">WAKE UP EARLY ,</h1>
+        <H1 class="bg">EAT FRESH & HEALTHY</H1>
+        <P class="paragraph" style="font-weight: lighter; ">Food is any substance consumed to provide nutritional <br>
+          support and energy to an organism. It can be
+          raw,<br>
+          processed, or formulated and is consumed <br>orally by animals for growth, health </P>
+      </div>
+
+      <!-- cards -->
+
+      <div class="cards">
+        <div>
+          <img class="img" src="/img/food1.jpg" alt="">
+          <div>
+            <h4>Fresh and </h4>
+            <h4>Health Salad</h4>
+          </div>
+        </div>
+        <div>
+          <img class="img" src="/img/food2.jpg" alt="">
+        </div>
+        <div>
+          <img class="img" src="/img/food3.jpg" alt="">
+        </div>
+        <div>
+          <img class="img" src="/img/food4.jpg" alt="">
+        </div>
+      </div>
     </div>
 
   </div>
