@@ -6,7 +6,7 @@
 }
 
 
-    
+
 
 .box {
     width: 100vw;
@@ -17,9 +17,9 @@
 }
 
 .section {
-    background-color: rgb(143, 143, 143);
     width: 1000px;
     height: 800px;
+    background-color: rgb(143, 143, 143);
     border-radius: 10px;
     padding: 20px;
 }
@@ -41,24 +41,119 @@
     margin-right: 50px;
 }
 
-.content{
-   justify-content: center;
-   text-align: center;
-   margin-top: 80px;
-   background-color: rgb(143, 143, 143);
+.content {
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    background-color: rgb(143, 143, 143);
 }
 
-.paragraph{
+.paragraph {
     background-color: rgb(143, 143, 143);
     margin-top: 20px;
 }
 
-.img{
-    width: 60px;
-    height: 60px;
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 65px;
 }
 
-.cards{
+.qwe {
+    margin-bottom: 110px;
+}
+
+.cards {
     display: flex;
+    background-color: rgb(143, 143, 143);
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+
 }
 
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: 2px white;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.q {
+    background-color: white;
+}
+
+.z {
+    display: flex;
+    background-color: rgb(143, 143, 143);
+    justify-content: space-between;
+}
+
+.x {
+    display: flex;
+    background-color: rgb(143, 143, 143);
+}
+
+.y {
+    display: flex;
+    background-color: rgb(143, 143, 143);
+}
+
+.pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(143, 143, 143);
+}
+
+.c {
+    align-items: center;
+    background-color: rgb(143, 143, 143);
+    margin-top: 8px;
+}
+
+.ul {
+    margin-left: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.bgg {
+    margin-left: 14px;
+}
+
+@media screen and (min-width : 601) and (max-width :1440px) {
+    .section {
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section {
+        height: 1500px;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(143, 143, 143);
+
+    }
+ 
+    .content{
+        margin-top: 250px;
+        font-size: 14px;
+    }
+
+   
+}
